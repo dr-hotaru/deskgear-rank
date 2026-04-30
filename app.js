@@ -161,6 +161,48 @@ const products = [
   }
 ];
 
+const supplementalProducts = [
+  ...buildSupplementalProducts("ノートPCスタンド", [
+    ["アルミZ型ノートPCスタンド", 2480, "ノートPCスタンド Z型 アルミ 高さ調整", "自宅据え置きで安定感を重視したい人", "高さ調整しやすいZ型の候補。外部キーボードと合わせると姿勢を整えやすくなります。", "重量があるため持ち運び用途には向きにくいです。"],
+    ["軽量折りたたみPCスタンド", 1680, "ノートPCスタンド 軽量 折りたたみ 持ち運び", "外出先でも使いたい人", "薄型で持ち運びやすい候補。カフェや出張先での作業にも合わせやすいです。", "軽量タイプは大型PCで揺れやすい場合があります。"],
+    ["17インチ対応PCスタンド", 3280, "ノートPCスタンド 17インチ 対応 放熱", "大きめのノートPCを使う人", "17インチ級のPCを置きたい人向け。放熱性や幅を確認して選びます。", "対応インチだけでなく耐荷重も確認が必要です。"],
+    ["タブレット兼用PCスタンド", 1980, "PCスタンド タブレット兼用 角度調整", "PCとタブレットを併用する人", "ノートPCとタブレットの両方で使える候補。用途を分けたい人に向きます。", "タブレット用の溝がPC作業時に合わない場合があります。"],
+    ["木製ノートPCスタンド", 3980, "木製 ノートPCスタンド デスク インテリア", "見た目も重視したい人", "デスクの雰囲気を整えたい人向け。インテリア性を重視する記事で紹介しやすいです。", "角度調整や収納性は金属製より弱い場合があります。"],
+    ["冷却ファン付きPCスタンド", 2980, "ノートPC 冷却台 ファン付き スタンド", "発熱が気になる人", "冷却ファン付きで夏場や高負荷作業の候補になります。", "ファン音やUSB給電の取り回しを確認したい商品です。"],
+    ["クランプ式ノートPCトレイ", 4980, "ノートPC トレイ クランプ モニターアーム", "机の上を広く使いたい人", "モニターアームやクランプで机上を空けたい人向けです。", "机の天板厚と固定方式の確認が必須です。"],
+    ["縦置きノートPCスタンド", 1880, "ノートPC 縦置き スタンド 収納", "クラムシェル運用をしたい人", "外部モニター利用時にPCを縦置きできる候補です。", "排熱位置とPCの厚みに合うか確認が必要です。"]
+  ]),
+  ...buildSupplementalProducts("デスクライト", [
+    ["クランプ式ワイドデスクライト", 5980, "デスクライト クランプ式 ワイド 調光", "机の上を広く使いたい人", "クランプ固定でベースを置かずに使える候補。広い机やモニター周りに向きます。", "天板の厚みと固定スペースを確認してください。"],
+    ["モニターライトバー", 4980, "モニターライト バー デスクライト 調光", "モニター前の手元を照らしたい人", "画面上に設置するタイプ。省スペースで手元を照らしやすい候補です。", "モニター形状によっては設置しにくい場合があります。"],
+    ["コードレスLEDデスクライト", 3280, "デスクライト コードレス 充電式 LED", "配線を減らしたい人", "充電式で置き場所を変えやすい候補。寝室や読書灯にも使いやすいです。", "連続点灯時間と充電頻度を確認しましょう。"],
+    ["クリップ式デスクライト", 1980, "デスクライト クリップ式 調光 読書", "狭い机や棚で使いたい人", "クリップで固定できる省スペース候補。サブ照明としても使いやすいです。", "固定できる板厚とクリップ跡に注意が必要です。"],
+    ["高演色LEDデスクライト", 6980, "デスクライト 高演色 Ra95 LED", "色味を確認する作業が多い人", "高演色性を重視した候補。手芸やイラスト作業にも訴求しやすいです。", "明るさだけでなく照射範囲も確認してください。"],
+    ["学習机向けデスクライト", 3980, "デスクライト 学習机 目に優しい 調光", "勉強や読書で使いたい人", "学習机向けに選びやすい定番候補。明るさ調整と角度調整が比較軸です。", "机のサイズに対してアーム長が合うか確認しましょう。"],
+    ["スマホ充電付きデスクライト", 4580, "デスクライト ワイヤレス充電 USB 付き", "充電周りもまとめたい人", "スマホ充電やUSB給電をまとめたい人向けの候補です。", "充電速度や対応端末は商品ページで確認が必要です。"]
+  ]),
+  ...buildSupplementalProducts("Webカメラ", [
+    ["リングライト付きWebカメラ", 2980, "Webカメラ リングライト付き フルHD", "暗い部屋で会議する人", "ライト付きで顔の暗さを補いやすい候補。オンライン会議向けに扱いやすいです。", "ライトの明るさが強すぎないか確認しましょう。"],
+    ["オートフォーカスWebカメラ", 3980, "Webカメラ オートフォーカス 1080P", "資料や手元を映す人", "オートフォーカス対応を探したい人向け。手元撮影にも使いやすい候補です。", "会議だけなら固定フォーカスで十分な場合もあります。"],
+    ["広角Webカメラ", 3480, "Webカメラ 広角 90度 1080P", "複数人や広めに映したい人", "広角で部屋や複数人を映しやすい候補です。", "広角すぎると背景が映り込みやすくなります。"],
+    ["プライバシーカバー付きWebカメラ", 2480, "Webカメラ プライバシーカバー マイク付き", "カメラの目隠しを重視したい人", "物理カバー付きで安心感を出しやすい候補です。", "カバーの開閉しやすさを確認しましょう。"],
+    ["三脚対応Webカメラ", 3280, "Webカメラ 三脚穴 1080P", "設置位置を自由に変えたい人", "三脚穴付きで配置を調整しやすい候補です。", "三脚は別売りの場合があります。"],
+    ["4K対応Webカメラ", 6980, "Webカメラ 4K 自動光補正", "画質を重視したい人", "高画質を重視したい人向け。面接や配信寄りの記事でも使えます。", "回線やアプリ側が4Kに対応しない場合があります。"],
+    ["マイク強化Webカメラ", 4480, "Webカメラ ノイズキャンセリング マイク", "音声もまとめたい人", "内蔵マイクのノイズ低減を重視した候補です。", "音質重視なら外部マイクも比較しましょう。"]
+  ]),
+  ...buildSupplementalProducts("モニターアーム", [
+    ["デュアルモニターアーム", 6980, "モニターアーム デュアル 32インチ", "2画面環境を整えたい人", "2枚のモニターをまとめて支えたい人向け。机上スペースを大きく空けやすいです。", "左右の耐荷重と机の固定条件を確認しましょう。"],
+    ["白いモニターアーム", 4980, "モニターアーム 白 シングル 32インチ", "白いデスク環境に合わせたい人", "デスクの色味を揃えたい人に向く候補です。", "白色モデルは在庫や価格が変動しやすいです。"],
+    ["低価格ガス式モニターアーム", 3980, "モニターアーム ガス式 安い シングル", "初めて導入する人", "ガス式を低予算で試したい人向け。高さ調整のしやすさが比較軸です。", "安価なモデルは固定力のレビュー確認が重要です。"],
+    ["高耐荷重モニターアーム", 7980, "モニターアーム 高耐荷重 12kg 32インチ", "重めのモニターを使う人", "重量のあるモニターを支えたい人向けです。", "対応VESA規格と耐荷重を必ず確認してください。"],
+    ["ポール式モニターアーム", 3580, "モニターアーム ポール式 シングル", "高さを固定して使いたい人", "ポール式で高さを安定させたい人向けの候補です。", "細かな上下調整はガス式より手間がかかる場合があります。"],
+    ["ノートPCトレイ付きモニターアーム", 5980, "モニターアーム ノートPC トレイ 付き", "PCと外部モニターを並べたい人", "ノートPCとモニターをまとめて配置したい人向けです。", "トレイの耐荷重と放熱性を確認しましょう。"],
+    ["壁掛けモニターアーム", 4980, "モニターアーム 壁掛け VESA", "机に固定できない人", "壁面に固定して机を広く使いたい人向けです。", "壁の強度と取り付け作業の可否を確認してください。"]
+  ])
+];
+
+const allProducts = products.concat(supplementalProducts);
+
 const yen = new Intl.NumberFormat("ja-JP", {
   style: "currency",
   currency: "JPY",
@@ -179,6 +221,22 @@ function rakutenUrl(product) {
   return `https://search.rakuten.co.jp/search/mall/${keyword}/`;
 }
 
+function buildSupplementalProducts(category, items) {
+  return items.map(([name, price, searchKeyword, bestFor, summary, weakness], index) => ({
+    name,
+    category,
+    price,
+    priceNote: "楽天検索リンク / 価格目安",
+    score: 82 - index,
+    commissionScore: 50 + Math.max(0, 8 - index),
+    image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
+    searchKeyword,
+    bestFor,
+    summary,
+    weakness
+  }));
+}
+
 function moshimoPlaceholderUrl(product) {
   if (!affiliateConfig.moshimoRakutenAid || affiliateConfig.moshimoRakutenAid.includes("YOUR_")) {
     return affiliateConfig.disclosureUrl;
@@ -188,7 +246,7 @@ function moshimoPlaceholderUrl(product) {
 }
 
 function buildCategories() {
-  const categories = [...new Set(products.map((product) => product.category))];
+  const categories = [...new Set(allProducts.map((product) => product.category))];
   for (const category of categories) {
     const option = document.createElement("option");
     option.value = category;
@@ -202,7 +260,7 @@ function getFilteredProducts() {
   const budget = budgetSelect.value;
   const sort = sortSelect.value;
 
-  const filtered = products.filter((product) => {
+  const filtered = allProducts.filter((product) => {
     const categoryMatch = category === "all" || product.category === category;
     const budgetMatch = budget === "all" || product.price <= Number(budget);
     return categoryMatch && budgetMatch;
@@ -220,7 +278,41 @@ function renderProducts() {
   grid.innerHTML = "";
   compareBody.innerHTML = "";
 
-  visibleProducts.forEach((product, index) => {
+  const groupedProducts = groupByCategory(visibleProducts);
+  for (const [category, categoryProducts] of groupedProducts) {
+    const section = document.createElement("section");
+    section.className = "genre-block";
+    section.innerHTML = `
+      <div class="genre-title">
+        <h3>${category}</h3>
+        <p>上位10件をスコア順で掲載</p>
+      </div>
+      <div class="genre-products"></div>
+    `;
+
+    const genreGrid = section.querySelector(".genre-products");
+    categoryProducts.slice(0, 10).forEach((product, index) => {
+      genreGrid.appendChild(createProductCard(product, index));
+    });
+    grid.appendChild(section);
+  }
+
+  visibleProducts.forEach((product) => {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${product.name}</td>
+      <td>${product.category}</td>
+      <td>${yen.format(product.price)}<br><small>${product.priceNote}</small></td>
+      <td>${product.bestFor}</td>
+      <td>${product.weakness}</td>
+    `;
+    compareBody.appendChild(row);
+  });
+
+  injectStructuredData(visibleProducts);
+}
+
+function createProductCard(product, index) {
     const card = document.createElement("article");
     card.className = "product-card";
     card.innerHTML = `
@@ -244,20 +336,19 @@ function renderProducts() {
         </div>
       </div>
     `;
-    grid.appendChild(card);
+  return card;
+}
 
-    const row = document.createElement("tr");
-    row.innerHTML = `
-      <td>${product.name}</td>
-      <td>${product.category}</td>
-      <td>${yen.format(product.price)}<br><small>${product.priceNote}</small></td>
-      <td>${product.bestFor}</td>
-      <td>${product.weakness}</td>
-    `;
-    compareBody.appendChild(row);
+function groupByCategory(visibleProducts) {
+  const grouped = new Map();
+  visibleProducts.forEach((product) => {
+    if (!grouped.has(product.category)) grouped.set(product.category, []);
+    grouped.get(product.category).push(product);
   });
-
-  injectStructuredData(visibleProducts);
+  return [...grouped.entries()].map(([category, categoryProducts]) => [
+    category,
+    categoryProducts.sort((a, b) => b.score - a.score)
+  ]);
 }
 
 function injectStructuredData(visibleProducts) {
