@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://studio-guepard.github.io/deskgear-rank/sitemap.xml
+Sitemap: https://dr-hotaru.github.io/deskgear-rank/sitemap.xml
